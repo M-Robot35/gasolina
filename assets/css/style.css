@@ -13,7 +13,6 @@
     min-height: 100vh;
     justify-content: center;
     align-items: center;
-    /* background-color: aquamarine; */
 }
 
 @media only screen and (max-width: 600px){
@@ -25,7 +24,6 @@
     .conteiner-total {
         width: 100vw;
         height: 100vh;
-        background-color: blueviolet;
     }
     .conteiner-gasolina{
         background-color: rgba(0, 0, 255, 0.291);
