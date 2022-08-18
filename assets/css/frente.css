@@ -1,0 +1,72 @@
+.gasolina {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    border-radius: 5px; 
+    flex-wrap: wrap;   
+     
+}
+
+img[alt="gas"]{
+    width: var(--imgPadraoH);
+    height: var(--imgPadraoH);
+    border-radius: 50%;
+}
+
+#litros-abs, #value {
+    max-width: 40%;    
+}
+
+
+.combustivel {
+    display: flex;
+    width: 100%;
+    border: 1px dashed black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;    
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.gasolina ul li {
+    position: absolute;
+    width: 100%;
+    
+}
+
+img[alt="car"]{
+    width: var(--imgPadraoW);
+    height: var(--imgPadraoH);
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.rd {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.bbb {
+    border: 1px solid black;
+    max-width: 60%;
+    width: 100%;
+    border-radius: 5%;
+    padding: 10px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.474);
+    font-weight: 800;
+}
+.bbb:hover{
+    background-color: rgba(128, 128, 128, 0.231);
+    color: rgb(0, 0, 0);
+}
+
+.combustivel input {
+    border: 1px solid rgba(128, 128, 128, 0.412);
+    padding: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/scripts.js"></script>
+    <title>Calculo Gasolina | TTs</title>
+</head>
+<body>
+    <main class="conteiner-total">
+        <section class="conteiner-gasolina">
+            <div class="gasolina frente">
+                
+                <div class="combustivel">
+                    <div><img src="./assets/img/1.jpg" alt="gas"></div>
+                    <div class="combustivel-valores"><strong>Valor Combustivel</strong>
+                        <div><span>R$ </span><input maxlength="5" id="value" placeholder="9,99"  type="text" required></div>                    
+                    </div>
+                </div> 
+                <div class="combustivel">
+                    <div><img src="./assets/img/77.jpg" alt="gas"></div>
+                    <div class="combustivel-valores"><strong>Litros Abastecido</strong>
+                        <div><span></span><input maxlength="7" id="litros-abs" placeholder="50"  type="text" required> L</div>                    
+                    </div>
+                </div> 
+                
+                <div class="combustivel">
+                    <div><img src="./assets/img/carro.png" alt="car"></div>
+                    <div class="combustivel-valores"><strong>km Rodados</strong>
+                        <div class="rd"><span>Km </span><input id="inicialkm"  placeholder="Inicial" type="number"></div>                    
+                        <div ><span>Km </span><input id="finalkm" placeholder="Final" type="number" required></div>                    
+                    </div>
+                </div>    
+
+                <button class="bbb btn-frente">Calcular</button>                       
+            </div>
+
+            <div class="gasolina costas">
+                <h1>Analise de Combustivel</h1>
+                <div class="calculo-km">
+                    <label ><strong>Valor Gasolina :</strong><label ></label ><span id="valor-comb"></span></label>
+                </div>
+                <div class="calculo-km">
+                    <label ><strong>Você abasteceu :</strong><span id="litros-abs1"></span></label>
+                </div>
+                <div class="calculo-km">
+                    <label ><strong>Km Rodado :</strong><span id="km_dodadoss"></span></label>
+                </div>
+                <div class="calculo-km">
+                    <label ><strong>O Veiculo faz :</strong><span id="kilometrosLitros"></span></label>
+                </div>
+                <div class="calculo-km">
+                    <label ><strong>Gasto p/ Km :</strong><span id="ki"></span></label>
+                </div>
+                <div class="calculo-km">
+                    <label ><strong>Você Gastara :</strong><span id="value-total-dimdim"></span></label>
+                </div>
+                <div class="calculo-km">
+                    <label ><strong>Ida e Volta Gastara :</strong><span id="idavolta"></span></label>
+                </div>
+                
+                <button id="melhorvoltar" class="bbb btn-costas">Voltar</button>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

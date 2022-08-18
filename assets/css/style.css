@@ -1,0 +1,70 @@
+@import url('default.css');
+@import url('frente.css');
+
+:root{
+    --imgPadraoW : 50px;
+    --imgPadraoH : 50px;
+}
+
+.conteiner-total{
+    display: flex;
+    width: 100vh;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteiner-gasolina {
+    transform-style: preserve-3d;
+    transition: all 1s linear ;
+    
+}
+
+.conteiner-total {
+    position: relative;
+}
+
+.frente{
+    position: absolute;
+    background-color:rgba(191, 191, 191, 0.199);
+    backface-visibility: hidden;     
+    
+}
+
+.costas{
+    background-color:rgba(191, 191, 191, 0.199) ;
+    transform: rotateY(180deg);   
+    backface-visibility: hidden;  
+    
+}
+
+.btn-costas:hover {
+    background-color: aqua;
+}
+
+.calculo-km {
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.calculo-km label>span{
+    margin-left: 10px;
+}
+
+#melhorvoltar:hover{
+    background-color: blueviolet;
+    color: white;
+   
+}  
+
+.mostrar-resultado {
+    transform: rotateY(180deg);
+    /* backface-visibility: hidden; */
+
+}
+
